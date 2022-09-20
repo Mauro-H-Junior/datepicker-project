@@ -1,0 +1,40 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Fengyuan Chen's Datepicker Static Implementation</title>
+  <style>body {font-family: Arial, sans-serif;}</style>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/locales/bootstrap-datepicker.pt-BR.js"></script>
+
+
+</head>
+<body>
+    <div></div>
+    <p style="font-size: larger; color: darkgreen; text-align: center;">Brandon Jones Teaches Fengyuan Chen's Datepicker Static Implementation</p>  
+    <div style="text-align: center;">
+  <input id="datepicker">
+    </div>
+
+  <script>
+    $(function () {
+      $("#datepicker").datepicker ({
+        format:'dd/mm/yyyy',
+        language:'pt-BR',
+      });
+    });
+  </script>
+
+</body>
+</html>
